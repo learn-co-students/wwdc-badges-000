@@ -17,7 +17,7 @@ int main(int argc, const char * argv[])
         NSArray *conferenceSpeakers = @[@"Edsger", @"Ada", @"Charles", @"Alan", @"Grace", @"Linus", @"Wozniak"];
         for (NSString *name in conferenceSpeakers)
         {
-            NSLog(@"Hello my name is %@", name);
+            NSLog(@"Hello my name is %@.", name);
         }
         
     }
