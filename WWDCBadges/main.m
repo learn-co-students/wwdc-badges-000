@@ -13,7 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
+        NSArray *conferenceSpeakers = @[ @"Edsger", @"Ada", @"Charles", @"Alan", @"Grace", @"Linus" , @"Wozniak" ];
+        
+        for (int i=0;i<[conferenceSpeakers count];i++)
+        {
+            NSLog(@"Hello, my name is %@.", conferenceSpeakers[i]);
+        }
         
     }
     return 0;
