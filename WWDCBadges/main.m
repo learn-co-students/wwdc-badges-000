@@ -20,7 +20,7 @@ int main(int argc, const char * argv[])
         for (NSString *name in conferenceSpeakers) {
             NSLog(@"Hello, my name is %@.", name);
         }
-        
+        //
     }
     return 0;
 }
