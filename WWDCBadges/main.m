@@ -15,6 +15,13 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         
+        
+        
+        NSArray *conferenceSpeakers = @[@"Edsger", @"Ada", @"Charles", @"Alan", @"Grace", @"Linus", @"Wozniak"];
+        
+        for (NSInteger i = 0; i < 7; i++) {
+            NSLog( conferenceSpeakers[i]  );
+        }
     }
     return 0;
 }
