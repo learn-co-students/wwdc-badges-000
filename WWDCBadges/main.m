@@ -14,7 +14,11 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
+        NSArray *conferenceSpeakers = @[@"Edsger", @"Ada", @"Charles", @"Alan", @"Grace", @"Linus", @"Wozniak"];
         
+        for(id object in conferenceSpeakers){
+            NSLog(@"Hello, my name is %@.", object);
+        };
     }
     return 0;
 }
