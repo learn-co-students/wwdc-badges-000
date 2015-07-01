@@ -19,8 +19,28 @@
     // Override point for customization after application launch.
     
     // Hey!
+    //* Anita Borg
+//    * Alan Kay
+//    * Ada Lovelace
+//    * Aaron Swartz
+//    * Alan Turing
+//    * Michael Faraday
+//    * Grace Hopper
+//    * Charles Babbage
     
     // Write your code here!!
+    NSArray* conferenceSpeakers = @[@"Anita Borg",
+                                    @"Alan Kay",
+                                    @"Ada Lovelace",
+                                    @"Aaron Swartz",
+                                    @"Alan Turing",
+                                    @"Michael Faraday",
+                                    @"Grace Hopper",
+                                    @"Charles Babbage"];
+    
+    for (NSString *speaker in conferenceSpeakers) {
+        NSLog(@"Hello, my name is %@",speaker);
+    }
     
     return YES;
 }
