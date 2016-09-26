@@ -14,13 +14,16 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    // Hey!
+    NSArray *conferenceSpeakers = @[ @"Anita Borg", @"Alan Kay", @"Ada Lovelace", @"Aaron Swartz", @"Alan Turing", @"Michael Faraday", @"Grace Hopper", @"Charles Babbage" ];
     
-    // Write your code here!!
+    NSUInteger conferenceSpeakersSize = [conferenceSpeakers count];
+    
+    for (NSUInteger i = 0; i < conferenceSpeakersSize; i++) {
+        NSLog(@"Hello, my name is %@", conferenceSpeakers[i]);
+    }
     
     return YES;
 }
